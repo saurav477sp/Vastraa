@@ -1,4 +1,4 @@
 class RouteConstant {
-  // name of all files
-  
+  static final String splashScreen = '/';
+  static final String secondScreen = '/second_screen';
 }

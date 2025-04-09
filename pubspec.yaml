@@ -55,6 +55,9 @@ flutter_launcher_icons:
   ios: true
   image_path: 'assets/images/logo.png'
 
+
+
+# this will work on android 12+
 flutter_native_splash:
   color: "#42a5f5"
 

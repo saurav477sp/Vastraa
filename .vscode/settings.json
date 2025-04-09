@@ -1,12 +1,7 @@
 {
     "workbench.colorCustomizations": {
-        "activityBar.background": "#1e00ffad",
-        "activityBar.foreground": "#ef0000",
-        "activityBarBadge.foreground": "#1e00ffad",
-        "activityBar.inactiveForeground":"#000000"
+        "activityBar.background": "#6c2b6ff6",
+        "activityBar.foreground": "#000000",
+        "activityBarBadge.foreground": "#6c2b6ff6",
     },
-    "cSpell.words": [
-        "Apiservice",
-        "produt"
-    ]
 }

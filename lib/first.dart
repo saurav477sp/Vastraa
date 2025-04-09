@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:vastraa/second.dart';
+import 'package:vastraa/Constants/route_constant.dart';
 
 class First extends StatefulWidget {
   const First({super.key});
@@ -13,7 +13,7 @@ class _FirstState extends State<First> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(Duration(seconds: 4), () => Get.to(() => Second()));
+    Future.delayed(Duration(seconds: 4), () => Get.toNamed(RouteConstant.secondScreen));
   }
 
   @override
