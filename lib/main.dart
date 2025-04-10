@@ -3,7 +3,6 @@ import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get/get.dart';
 import 'package:vastraa/Constants/route_constant.dart';
 import 'package:vastraa/Controller/InitialBindings.dart';
-import 'package:vastraa/first.dart';
 import 'package:vastraa/routes/app_routes.dart';
 
 void main() {
@@ -24,6 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)),
       initialBinding: Initialbindings(),
       getPages: AppRoutes.routes,
